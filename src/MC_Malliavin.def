@@ -1,0 +1,25 @@
+; MC_Malliavin.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MC_Malliavin"
+DESCRIPTION  'MC_Malliavin Calcul Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+
+		call_europeen_BS
+		call_europeen_MC
+		call_americain_CRR
+		call_americain_malliavin
+		call_americain_malliavin_localisant
+		delta_call_americain
+
+		put_europeen_BS
+		put_europeen_MC
+		put_americain_CRR
+		put_americain_malliavin
+		put_americain_malliavin_localisant
+		delta_put_americain
+
+
+
+
